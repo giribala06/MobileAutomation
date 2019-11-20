@@ -34,7 +34,7 @@ public class Login {
 
     @Test
     public void testLogin() {
-    	System.out.println();
+    	//System.out.println();
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='LOGIN']")));
         driver.findElement(By.xpath("//*[@text='LOGIN']")).click();
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("((((//*[@class='android.view.View' and ./parent::*[@id='root']]/*/*/*[@class='android.view.View' and ./parent::*[@class='android.view.View' and ./parent::*[@class='android.view.View']]])[3]/*[@class='android.view.View'])[1]/*[@class='android.view.View'])[2]/*/*/*[@class='android.widget.EditText'])[1]")));

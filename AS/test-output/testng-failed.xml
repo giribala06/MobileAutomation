@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
-  <test name="Default test(failed)(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="GetQuote">
+      <class name="FamilyDelite">
         <methods>
-          <include name="testGetQuote"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- GetQuote -->
-      <class name="Login">
-        <methods>
+          <include name="testFamilDelite"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Login -->
+      </class> <!-- FamilyDelite -->
     </classes>
-  </test> <!-- Default test(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Default suite]] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
