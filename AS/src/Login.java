@@ -42,6 +42,7 @@ public class Login {
         driver.findElement(By.xpath("((((//*[@class='android.view.View' and ./parent::*[@id='root']]/*/*/*[@class='android.view.View' and ./parent::*[@class='android.view.View' and ./parent::*[@class='android.view.View']]])[3]/*[@class='android.view.View'])[1]/*[@class='android.view.View'])[2]/*/*/*[@class='android.widget.EditText'])[2]")).sendKeys("Ran@2124");
         new WebDriverWait(driver, 30).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='CONTINUE']")));
         driver.findElement(By.xpath("//*[@text='CONTINUE']")).click();
+        new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='LOGOUT']")));
     }
 
     @AfterMethod
