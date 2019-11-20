@@ -10,6 +10,12 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- GetQuote -->
+      <class name="Login">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Login -->
     </classes>
   </test> <!-- Default test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Default suite]] -->
